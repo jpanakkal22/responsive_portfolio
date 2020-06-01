@@ -18,15 +18,15 @@ a.navbar-brand {
 }
 
 
-.container_main {
+.container {
     background-color: #686868;
     box-sizing: border-box;
-    width: 60%;
     margin-top: 40px;
     margin-right: 40%;
     margin-left: 10px;
     padding: 20px;
     border: 1px solid black;
+    line-height: 200%;
    
 }
 
