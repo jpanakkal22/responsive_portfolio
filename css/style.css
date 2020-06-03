@@ -1,3 +1,6 @@
+
+/*Background image and styling*/
+
 body {
     background-image: url("../Assets/Images/close-up-of-wooden-plank-326311.jpg");
     height: 100%;
@@ -6,16 +9,18 @@ body {
     background-size: cover;
     color: white;
     font-family: Merriweather;
-
 }
+
+/*Navbar*/
 
 a.navbar-brand {
     margin-left: 15px;
     font-size: 24px;
 }
 
+/*Styling for main content*/
 
-.container {
+.main {
     background-color: #686868;
     opacity: 0.9;
     margin-top: 40px;
@@ -30,16 +35,11 @@ img {
     padding: 10px;
 }
 
-.img-thumbnail {
-    padding: 0px;
-    border: 0px solid #686868 ;
-    height: 400px;
-    width: 250px;
-}
-
 p {
     font-size: 16px;
 }
+
+/*Footer*/
 
 footer {
     
@@ -54,11 +54,9 @@ footer {
     color: white;
 }
 
-@media (min-width: 375px) {
-    .container {
-        margin-left: 8%;
-    }
+/*Media Queries*/
 
+@media (min-width: 375px) {
     p {
         font-size: 24px;
         line-height: 2;
@@ -66,10 +64,16 @@ footer {
 }
 
 @media (min-width: 768px) {
-    .container {
-        margin-left: 3%;
+    .main {
+        width: 85%;
     }
-}
+    
+    p {
+        font-size: 16px;
+        line-height: 2;
+    }
+}   
+
 
 
 
