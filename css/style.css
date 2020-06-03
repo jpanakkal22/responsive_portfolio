@@ -1,15 +1,12 @@
 body {
     background-image: url("../Assets/Images/close-up-of-wooden-plank-326311.jpg");
-    /* Full height */
     height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-family: Merriweather;
-    
+
 }
 
 a.navbar-brand {
@@ -22,15 +19,15 @@ a.navbar-brand {
     background-color: #686868;
     opacity: 0.9;
     margin-top: 40px;
-    margin-right: 40%;
-    margin-left: 10px;
-    margin-bottom: 40%;
+    margin-left: 5%;
+    margin-bottom: 60%;
     padding: 20px;
     border: 1px solid black;
     line-height: 200%;
-    
-    
-   
+}
+
+img {
+    padding: 10px;
 }
 
 .img-thumbnail {
@@ -38,11 +35,6 @@ a.navbar-brand {
     border: 0px solid #686868 ;
     height: 400px;
     width: 250px;
-    
-    
-
-    
-   
 }
 
 p {
@@ -50,7 +42,7 @@ p {
 }
 
 footer {
-    clear: both;
+    
     position: fixed;
     left: 0;
     bottom: 0;
@@ -62,67 +54,23 @@ footer {
     color: white;
 }
 
-/*Query set for iPhone 6/7/8*/
 @media (min-width: 375px) {
-  .container {
-    width: 95%;
-     
-  }
-
-  .img-thumbnail {
-      height: 300px;
-      width: 200px;
-  }
-
-  p {
-      margin-top: 20px;
-      font-size: 18px;
-  }
-
-}
-
-@media (min-width: 640px) {
     .container {
-        margin-left: 50px;
+        margin-left: 8%;
     }
 
-    a.navbar-brand {
-        margin-left: 45px;
+    p {
         font-size: 24px;
+        line-height: 2;
     }
-    
 }
 
 @media (min-width: 768px) {
     .container {
-        margin-left: 25px;
-        margin-bottom: 50%;
+        margin-left: 3%;
     }
-
-    a.navbar-brand {
-        margin-left: 15px;
-        font-size: 24px;
-    }
-
-    .img-thumbnail {
-        margin-top: 10%;
-        
-        
-    }
- 
 }
-    
-    
-   
-    
 
 
 
 
-
-
-
-
-
-  
-   
