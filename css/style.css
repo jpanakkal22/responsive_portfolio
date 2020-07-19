@@ -37,6 +37,13 @@ img {
 .para {
     font-size: 20px;
 }
+.para2 {
+    font-size: 14px;
+}
+#name {
+    text-decoration: underline;
+    font-size: 16px;
+}
 
 /*Footer*/
 
